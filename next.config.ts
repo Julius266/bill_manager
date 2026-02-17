@@ -1,7 +1,7 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  cacheComponents: true,
+  // Removed cacheComponents to avoid conflicts with dynamic routes
 };
 
 export default nextConfig;

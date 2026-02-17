@@ -1,0 +1,204 @@
+{
+  "en": {
+    "hero": {
+      "badge": "Trusted by 50,000+ users worldwide",
+      "title": "Take Control of Your",
+      "titleHighlight": "Finances",
+      "description": "Track expenses, set budgets, and achieve your financial goals with our intuitive manager. Join over 50,000 users managing their wealth smarter with AI-driven insights.",
+      "ctaPrimary": "Get Started Free",
+      "ctaSecondary": "See how it works",
+      "reviews": "4.9/5 from 1,200+ reviews"
+    },
+    "stats": {
+      "activeUsers": "Active Users",
+      "trustScore": "Trust Score",
+      "tracked": "Tracked",
+      "security": "Security"
+    },
+    "features": {
+      "badge": "Powerful Features",
+      "title": "Everything you need for your wealth",
+      "description": "Powerful tools designed to help you understand your spending, grow your savings, and secure your financial future.",
+      "feature1": {
+        "title": "Real-time Syncing",
+        "description": "Connect your bank accounts securely and see your transactions instantly. We support over 10,000 financial institutions globally."
+      },
+      "feature2": {
+        "title": "Smart Categorization",
+        "description": "AI-driven expense labeling helps you understand where every dollar goes. Automatically sort purchases into meaningful groups."
+      },
+      "feature3": {
+        "title": "Actionable Insights",
+        "description": "Receive personalized weekly reports on spending habits and savings opportunities to help you build wealth faster."
+      }
+    },
+    "security": {
+      "title": "Bank-level Security",
+      "description": "We use 256-bit encryption to protect your data. We never sell your personal information, and we have read-only access to your bank accounts.",
+      "sslSecure": "SSL Secure",
+      "twoFactor": "2FA Active"
+    },
+    "testimonials": {
+      "title": "What our users say",
+      "testimonial1": {
+        "quote": "ExpenseManager changed the way I look at money. I saved $400 in my first month just by seeing where my subscriptions were going.",
+        "name": "Sarah Jenkins",
+        "role": "Freelancer"
+      },
+      "testimonial2": {
+        "quote": "The automated categorization is scary accurate. It saves me hours every week that I used to spend on manual spreadsheets.",
+        "name": "David Lawson",
+        "role": "Project Manager"
+      },
+      "testimonial3": {
+        "quote": "Security was my main concern, but after reading about their bank-level encryption, I felt safe. Best decision for my wallet.",
+        "name": "Elena Rodriguez",
+        "role": "Tech Analyst"
+      }
+    },
+    "cta": {
+      "title": "Ready to master your money?",
+      "description": "Join over 50,000 users and start your journey to financial freedom today. No credit card required to get started.",
+      "primaryButton": "Create Free Account",
+      "secondaryButton": "Contact Sales"
+    },
+    "footer": {
+      "description": "The modern way to manage your wealth. Tracking, budgeting, and AI-insights to help you reach your financial goals.",
+      "product": "Product",
+      "company": "Company",
+      "legal": "Legal",
+      "links": {
+        "features": "Features",
+        "security": "Security",
+        "pricing": "Pricing",
+        "updates": "Updates",
+        "about": "About Us",
+        "careers": "Careers",
+        "blog": "Blog",
+        "contact": "Contact",
+        "privacy": "Privacy Policy",
+        "terms": "Terms of Service",
+        "cookies": "Cookie Policy"
+      },
+      "copyright": "© 2026 ExpenseManager Inc. All rights reserved.",
+      "language": "English (US)"
+    },
+    "contactModal": {
+      "title": "Contact Our Sales Team",
+      "description": "Fill out the form below and we'll get back to you within 24 hours.",
+      "nameLabel": "Full Name",
+      "namePlaceholder": "John Doe",
+      "emailLabel": "Email Address",
+      "emailPlaceholder": "john@company.com",
+      "companyLabel": "Company (Optional)",
+      "companyPlaceholder": "Your Company Inc.",
+      "messageLabel": "Message",
+      "messagePlaceholder": "Tell us about your needs...",
+      "sendButton": "Send Message",
+      "sendingButton": "Sending...",
+      "successMessage": "Message sent successfully! We'll contact you soon.",
+      "errorMessage": "Something went wrong. Please try again."
+    }
+  },
+  "es": {
+    "hero": {
+      "badge": "Confiado por más de 50,000 usuarios en todo el mundo",
+      "title": "Toma el Control de tus",
+      "titleHighlight": "Finanzas",
+      "description": "Rastrea gastos, establece presupuestos y alcanza tus metas financieras con nuestro gestor intuitivo. Únete a más de 50,000 usuarios que gestionan su riqueza de forma más inteligente con información impulsada por IA.",
+      "ctaPrimary": "Comenzar Gratis",
+      "ctaSecondary": "Ver cómo funciona",
+      "reviews": "4.9/5 de 1,200+ reseñas"
+    },
+    "stats": {
+      "activeUsers": "Usuarios Activos",
+      "trustScore": "Puntuación de Confianza",
+      "tracked": "Rastreado",
+      "security": "Seguridad"
+    },
+    "features": {
+      "badge": "Características Potentes",
+      "title": "Todo lo que necesitas para tu riqueza",
+      "description": "Herramientas potentes diseñadas para ayudarte a entender tus gastos, aumentar tus ahorros y asegurar tu futuro financiero.",
+      "feature1": {
+        "title": "Sincronización en Tiempo Real",
+        "description": "Conecta tus cuentas bancarias de forma segura y ve tus transacciones al instante. Soportamos más de 10,000 instituciones financieras globalmente."
+      },
+      "feature2": {
+        "title": "Categorización Inteligente",
+        "description": "El etiquetado de gastos impulsado por IA te ayuda a entender a dónde va cada dólar. Ordena automáticamente las compras en grupos significativos."
+      },
+      "feature3": {
+        "title": "Insights Accionables",
+        "description": "Recibe informes semanales personalizados sobre hábitos de gasto y oportunidades de ahorro para ayudarte a construir riqueza más rápido."
+      }
+    },
+    "security": {
+      "title": "Seguridad de Nivel Bancario",
+      "description": "Utilizamos encriptación de 256 bits para proteger tus datos. Nunca vendemos tu información personal y tenemos acceso de solo lectura a tus cuentas bancarias.",
+      "sslSecure": "SSL Seguro",
+      "twoFactor": "2FA Activo"
+    },
+    "testimonials": {
+      "title": "Lo que dicen nuestros usuarios",
+      "testimonial1": {
+        "quote": "ExpenseManager cambió la forma en que veo el dinero. Ahorré $400 en mi primer mes solo al ver a dónde iban mis suscripciones.",
+        "name": "Sarah Jenkins",
+        "role": "Freelancer"
+      },
+      "testimonial2": {
+        "quote": "La categorización automatizada es increíblemente precisa. Me ahorra horas cada semana que solía pasar en hojas de cálculo manuales.",
+        "name": "David Lawson",
+        "role": "Gerente de Proyecto"
+      },
+      "testimonial3": {
+        "quote": "La seguridad era mi principal preocupación, pero después de leer sobre su encriptación de nivel bancario, me sentí seguro. Mejor decisión para mi billetera.",
+        "name": "Elena Rodriguez",
+        "role": "Analista Tecnológico"
+      }
+    },
+    "cta": {
+      "title": "¿Listo para dominar tu dinero?",
+      "description": "Únete a más de 50,000 usuarios y comienza tu viaje hacia la libertad financiera hoy. No se requiere tarjeta de crédito para comenzar.",
+      "primaryButton": "Crear Cuenta Gratis",
+      "secondaryButton": "Contactar Ventas"
+    },
+    "footer": {
+      "description": "La forma moderna de gestionar tu riqueza. Seguimiento, presupuestos e información impulsada por IA para ayudarte a alcanzar tus metas financieras.",
+      "product": "Producto",
+      "company": "Compañía",
+      "legal": "Legal",
+      "links": {
+        "features": "Características",
+        "security": "Seguridad",
+        "pricing": "Precios",
+        "updates": "Actualizaciones",
+        "about": "Sobre Nosotros",
+        "careers": "Carreras",
+        "blog": "Blog",
+        "contact": "Contacto",
+        "privacy": "Política de Privacidad",
+        "terms": "Términos de Servicio",
+        "cookies": "Política de Cookies"
+      },
+      "copyright": "© 2026 ExpenseManager Inc. Todos los derechos reservados.",
+      "language": "Español (ES)"
+    },
+    "contactModal": {
+      "title": "Contacta a Nuestro Equipo de Ventas",
+      "description": "Completa el formulario y te responderemos en menos de 24 horas.",
+      "nameLabel": "Nombre Completo",
+      "namePlaceholder": "Juan Pérez",
+      "emailLabel": "Correo Electrónico",
+      "emailPlaceholder": "juan@empresa.com",
+      "companyLabel": "Empresa (Opcional)",
+      "companyPlaceholder": "Tu Empresa S.A.",
+      "messageLabel": "Mensaje",
+      "messagePlaceholder": "Cuéntanos sobre tus necesidades...",
+      "sendButton": "Enviar Mensaje",
+      "sendingButton": "Enviando...",
+      "successMessage": "¡Mensaje enviado con éxito! Te contactaremos pronto.",
+      "errorMessage": "Algo salió mal. Por favor intenta de nuevo."
+    }
+  }
+}
