@@ -79,7 +79,7 @@ export function SignUpForm({
         email,
         password,
         options: {
-          emailRedirectTo: `${window.location.origin}/protected`,
+          emailRedirectTo: `${process.env.NEXT_PUBLIC_SITE_URL || window.location.origin}/protected`,
           data: {
             full_name: fullName,
           },
@@ -122,10 +122,11 @@ export function SignUpForm({
     setError(null);
 
     try {
+      const redirectUrl = process.env.NEXT_PUBLIC_SITE_URL || window.location.origin;
       const { error } = await supabase.auth.signInWithOAuth({
         provider: "google",
         options: {
-          redirectTo: `${window.location.origin}/auth/confirm`,
+          redirectTo: `${redirectUrl}/auth/confirm`,
         },
       });
       if (error) throw error;

@@ -68,10 +68,11 @@ export function LoginForm({
     setError(null);
 
     try {
+      const redirectUrl = process.env.NEXT_PUBLIC_SITE_URL || window.location.origin;
       const { error } = await supabase.auth.signInWithOAuth({
         provider: "google",
         options: {
-          redirectTo: `${window.location.origin}/auth/confirm`,
+          redirectTo: `${redirectUrl}/auth/confirm`,
         },
       });
       if (error) throw error;
