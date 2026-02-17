@@ -40,7 +40,8 @@ export default async function DashboardLayout({
         {/* Navbar */}
         <DashboardNavbar 
           accounts={accounts || []} 
-          categories={categories || []} 
+          categories={categories || []}
+          fullName={profile?.full_name || null}
         />
         
         {/* Page Content */}

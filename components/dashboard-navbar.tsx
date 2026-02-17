@@ -1,11 +1,18 @@
 'use client';
 
 import { useState } from "react";
-import { Plus } from "lucide-react";
+import { Plus, Menu } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { ThemeSwitcher } from "@/components/theme-switcher";
 import { NotificationsDropdown } from "@/components/notifications-dropdown";
 import { AddTransactionDialog } from "@/components/add-transaction-dialog";
+import {
+  Sheet,
+  SheetContent,
+  SheetTrigger,
+  SheetTitle,
+} from "@/components/ui/sheet";
+import { SidebarContent } from "@/components/sidebar";
 
 interface Account {
   id: string;
@@ -22,18 +29,34 @@ interface Category {
 interface DashboardNavbarProps {
   accounts: Account[];
   categories: Category[];
+  fullName: string | null;
 }
 
-export function DashboardNavbar({ accounts, categories }: DashboardNavbarProps) {
+export function DashboardNavbar({ accounts, categories, fullName }: DashboardNavbarProps) {
   const [transactionDialogOpen, setTransactionDialogOpen] = useState(false);
+  const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   return (
     <>
       <header className="sticky top-0 z-40 border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
         <div className="flex h-16 items-center justify-between px-6">
-          {/* Left side - Empty for now, could add breadcrumbs or search */}
-          <div className="flex-1">
-            {/* Placeholder for future features like search or breadcrumbs */}
+          {/* Left side - Mobile menu button */}
+          <div className="flex-1 flex items-center gap-3">
+            {/* Mobile Menu Button */}
+            <Sheet open={mobileMenuOpen} onOpenChange={setMobileMenuOpen}>
+              <SheetTrigger asChild>
+                <Button variant="ghost" size="icon" className="lg:hidden">
+                  <Menu className="h-5 w-5" />
+                  <span className="sr-only">Toggle menu</span>
+                </Button>
+              </SheetTrigger>
+              <SheetContent side="left" className="w-64 p-0">
+                <SheetTitle className="sr-only">Navigation Menu</SheetTitle>
+                <div className="flex flex-col h-full">
+                  <SidebarContent fullName={fullName} />
+                </div>
+              </SheetContent>
+            </Sheet>
           </div>
 
           {/* Right side - Actions */}

@@ -15,7 +15,8 @@ interface SidebarProps {
   fullName: string | null;
 }
 
-export function Sidebar({ fullName }: SidebarProps) {
+// Componente reutilizable con el contenido del sidebar
+export function SidebarContent({ fullName }: SidebarProps) {
   const pathname = usePathname();
 
   // Helper function para determinar si un link está activo
@@ -36,7 +37,7 @@ export function Sidebar({ fullName }: SidebarProps) {
   };
 
   return (
-    <aside className="w-64 border-r border-border bg-card hidden lg:flex flex-col sticky top-0 h-screen">
+    <>
       {/* Header */}
       <div className="p-6 flex items-center gap-3">
         <div className="bg-primary size-10 rounded-lg flex items-center justify-center text-primary-foreground">
@@ -97,6 +98,15 @@ export function Sidebar({ fullName }: SidebarProps) {
       <div className="p-4 border-t border-border">
         <UserMenu fullName={fullName} />
       </div>
+    </>
+  );
+}
+
+// Sidebar para desktop
+export function Sidebar({ fullName }: SidebarProps) {
+  return (
+    <aside className="w-64 border-r border-border bg-card hidden lg:flex flex-col sticky top-0 h-screen">
+      <SidebarContent fullName={fullName} />
     </aside>
   );
 }
